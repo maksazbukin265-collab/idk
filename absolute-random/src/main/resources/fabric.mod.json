@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "absolute_random",
+  "version": "1.0.0",
+  "name": "Absolute Random",
+  "description": "Любой сломанный блок выдаёт случайный предмет из игры.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.absoluterandom.AbsoluteRandomMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "fabric-api": "*"
+  }
+}
